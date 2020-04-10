@@ -6,3 +6,7 @@ task :console do
   ARGV.clear
   IRB.start
 end
+
+require 'bundler/setup'
+Bundler.require
+
